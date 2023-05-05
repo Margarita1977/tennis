@@ -1,0 +1,444 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+.container {
+    max-width: 1296px;
+}
+
+.header {
+    width: 100%;
+    background: url(../img/fon.svg) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;    
+    -moz-background-size: cover;    
+    -o-background-size: cover;    
+    background-size: cover; 
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.a_logo {
+    margin: 0;
+}
+
+.logo_nav {
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    min-width: 742px;
+}
+
+.a_link {
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.hr {
+    opacity: 0.3;
+}
+
+.h1 {
+    max-width: 626px;
+    padding-top: 200px;
+    padding-bottom: 60px;
+    margin: 0;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.knopka_video {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 268px;
+    margin: 0;
+    padding-bottom: 202px;
+}
+
+.img_video {
+    margin: 0;
+    cursor: pointer;
+}
+
+.p_video {
+    max-width: 158px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;    
+    color: #FFFFFF;
+}
+
+/* uslugi */
+
+.uslugi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usluga {
+    padding: 35px 35px 40px 35px;
+    background: #8D86C9;
+    width: 245px;
+    margin: 0;
+}
+
+.h2_usluga::before {
+    position: absolute;
+    content: '';
+    height: 30px;
+    width: 30px;
+    background: url(../img/usluga.svg) no-repeat;
+    top: 0;
+    right: 0;
+}
+
+.p_usluga {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    padding-bottom: 17px;
+}
+
+.h2_usluga {
+    position: relative;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+
+/* main */
+/* blok_reklama */
+.reklama {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.blok_reklama { 
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border: 1px solid #F7ECE1;
+    padding: 25px 20px;
+    position: relative;
+}
+
+.p_reklama {
+    text-align: center;
+    height: 76px;
+    max-width: 370px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 140%;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 40px;
+
+}
+
+/* blok_info */
+.blok_info {
+    display: flex;
+    width: 1076px;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.text_info {
+    padding: 70px 60px 84px 146px;
+    background: #F7ECE1;
+    margin-left: 440px;
+}
+
+.img_info {
+    position: absolute;
+    top: 70px;
+    
+}
+
+.h3_info {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;  
+    color: #333333;
+}
+
+.p_info {
+    padding-top: 35px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+    max-width: 430px;
+
+}
+
+.p_subtitle_info {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 140%; 
+    color: #333333;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.p_punkt_info {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+    max-width: 430px;
+}
+
+/* trener */
+
+.trener {
+    margin-bottom: 150px;
+}
+
+.trener_vnutr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.trener_knopki {
+    display: flex;
+    justify-content: space-between;
+    min-width: 105px;
+    margin: 0;
+}
+
+.knopka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8D86C9;
+    height: 45px;
+    width: 45px;
+    position: relative;
+}
+
+.knopka_dva {
+    transform: rotate(180deg);
+}
+
+.knopka::after {
+    content: url(../img/strelka.svg);
+    position: absolute;
+    height: 15px;
+    width: 15px;
+}
+
+.p_zagalovok {
+    margin: 0;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    color: #333333;
+}
+
+
+.bloks_trener {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    align-items: start;
+}
+
+.blok_trener {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    max-width: 196px;
+    margin: 0;
+}
+
+.img_trener {
+    border: 1px solid #F7ECE1;
+    padding: 0 15px;
+}
+
+.p_name {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 140%;
+    color: #333333;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    max-width: 160px;
+    text-align: center;
+}
+
+.p_trener {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+    text-align: center;
+    height: 60px;
+}
+
+/* praice  */
+.praice {
+    margin-bottom: 150px;
+}
+
+.praice_vnutr {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.praice_blok {
+    margin: 0;
+}
+
+.p_praice_mini {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #8D86C9;
+    width: 526px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+    margin-top: 30px;
+    
+}
+
+.p_praice_mini::after {
+   position: absolute;
+   content: url(../img/strelka.svg);
+   height: 30px;
+   width: 30px;
+   right: 0;
+   transform: rotate(180deg);
+   padding-left: 30px;
+}
+
+
+.p_paice {
+    margin-bottom: 75px;
+}
+
+.uslugi_blokk {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.uslugi_text {
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
+}
+
+.img_uslugi {
+    margin-top: 75px;
+    border: 1px solid #F7ECE1;
+    padding: 30px 25px;
+}  
+
+.p_uslu {
+    position: absolute;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 140%;
+    color: #ffffff;
+    bottom: 60px;
+    left: 65px;
+}
+
+/* footer */
+.footer {
+    background: #F7ECE1;
+}
+
+.foot {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p_foot {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+    opacity: 0.3;
+    margin: 0;
+}
+
+.link_footer {
+    color: #333333;
+}
+
+.link_foot {
+    margin: 0;
+}
